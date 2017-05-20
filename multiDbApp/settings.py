@@ -77,11 +77,46 @@ WSGI_APPLICATION = 'multiDbApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'testdbdefault',
         'USER':"root",
         'PASSWORD':"root",
         'PORT':'3306'
-    }
+    },
+    'testdb1': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb1',
+        'USER':"root",
+        'PASSWORD':"root",
+        'PORT':'3306'
+    },
+    'testdb2': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb2',
+        'USER':"root",
+        'PASSWORD':"root",
+        'PORT':'3306'
+    },
+    'testdb3': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb3',
+        'USER':"root",
+        'PASSWORD':"root",
+        'PORT':'3306'
+    },
+    'testdb4': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb4',
+        'USER':"root",
+        'PASSWORD':"root",
+        'PORT':'3306'
+    },
+    'testdb5': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb5',
+        'USER':"root",
+        'PASSWORD':"root",
+        'PORT':'3306'
+    },
 }
 
 
