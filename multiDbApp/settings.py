@@ -1,3 +1,8 @@
+# @Date:   2017-05-20T19:44:16+05:30
+# @Last modified time: 2017-05-21T12:15:24+05:30
+
+
+
 """
 Django settings for multiDbApp project.
 
@@ -57,7 +62,7 @@ ROOT_URLCONF = 'multiDbApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
