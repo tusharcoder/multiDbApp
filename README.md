@@ -23,6 +23,10 @@ create database testdb3;
 create database testdb4;
 create database testdb5;
 
+#create default database
+create database testdbdefault;
+
+
 #run migrations
 python manage.py migrate core testdb1 
 python manage.py migrate core testdb2
