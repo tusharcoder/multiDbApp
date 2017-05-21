@@ -1,3 +1,8 @@
+# @Date:   2017-05-20T19:44:16+05:30
+# @Last modified time: 2017-05-21T12:15:00+05:30
+
+
+
 """multiDbApp URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -13,12 +18,13 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import include,url
 from django.contrib import admin
 from core.models import TestData
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('core.urls')),
 ]
 
 using =None
