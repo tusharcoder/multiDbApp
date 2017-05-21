@@ -1,5 +1,5 @@
 # multiDbApp
-"""bash
+```bash
 #clone the project
 git clone https://github.com/tusharcoder/multiDbApp.git
 
@@ -53,4 +53,4 @@ python manage.py runserver
 #for admin of testdb2
 #http://localhost:8000/testdb1_admin/ 
 #and so on....
-"""
+```
